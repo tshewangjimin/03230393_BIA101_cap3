@@ -1,16 +1,16 @@
 ################################
-# Github Repo link
+# https://github.com/tshewangjimin/03230393_BIA101_cap3
 # Tshewang Dema
 # BBI "B"
 # 03230393
 ################################
 # REFERENCES
-# Links that you referred while solving 
-# the problem
-# http://link.to.an.article/video.com 
+# https://youtu.be/DCaKj3eIrro?si=-QZWRSEk-mskiKv5 
+# https://youtu.be/1Y-Zsdf66JU?si=TYFk9DWhLcRL4jjQ
+
 ################################
 # SOLUTION
-# Your Solution Score:  495653
+# Solution Score:  495653
 ################################
 
 # Define a function to process the file and calculate the sum
@@ -44,8 +44,8 @@ def process_file(filename):
     return total_sum
 
 # Path to the input file
-input_file = '393.txt'
+input_file = r'C:\Users\Dell\Desktop\CAP3\393.txt'
 
 # Call the function and print the result
 result = process_file(input_file)
-print("The total sum is:", result)
+print("The total sum from 393.txt file is :", result)
